@@ -156,7 +156,7 @@
 
 			$this
 				.find('.dropdown')
-				.css('display', 'none')
+				.css('display')
 				.removeClass('animated-fast fadeInUpMenu');
 		});
 
@@ -165,7 +165,7 @@
 
 	var goToTop = function() {
 
-		$('.js-gotop').on('click', function(event){
+		$('.js-gotop').on('click', function(event){ 
 			
 			event.preventDefault();
 
